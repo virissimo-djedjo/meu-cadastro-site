@@ -51,7 +51,7 @@ export default function Home() {
           required
           style={{ padding: '10px' }}
         />
-        <button type="submit" style={{ padding: '10px', background: 'blue', color: 'white', border: 'none' }}>
+        <button type="submit" style={{ padding: '10px', cursor: 'pointer', background: 'blue', color: 'white', border: 'none' }}>
           {isLogin ? 'Entrar' : 'Cadastrar'}
         </button>
       </form>
